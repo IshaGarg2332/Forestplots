@@ -199,7 +199,7 @@ total1 |>
     )
   ) |>
   fp_add_header(
-    study = c("", "Neonatal outcomes"),
+    study = c("", "Title 1"),
     percentages = c("", "Percentages"),
     odds = c("", "Adjusted risk ratio")
   ) |>
@@ -250,7 +250,7 @@ total2 |>
     )
   ) |>
   fp_add_header(
-    study = c("", "Neonatal outcomes"),
+    study = c("", "Title 2"),
     percentages = c("", "Percentages"),
     odds = c("", "Adjusted risk ratio")
   ) |>
@@ -301,7 +301,7 @@ total3 |>
     )
   ) |>
   fp_add_header(
-    study = c("", "Neonatal outcomes"),
+    study = c("", "Title 3"),
     percentages = c("", "Percentages"),
     odds = c("", "Adjusted risk ratio")
   ) |>
@@ -351,7 +351,7 @@ total4 |>
     )
   ) |>
   fp_add_header(
-    study = c("", "Neonatal outcomes"),
+    study = c("", "Title 4"),
     percentages = c("", "Percentages"),
     odds = c("", "Adjusted risk ratio")
   ) |>
