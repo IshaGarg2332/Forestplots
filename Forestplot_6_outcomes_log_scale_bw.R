@@ -42,7 +42,6 @@ Words1 <- tibble::tibble(study = c("Column 1",
                          numbers = c (1, 2, 3, 4, 5, 6))
 
 ####Graphing code####
-
 #Bind all dataframes together into one dataframe
 total1 <- bind_rows(Words1, Dataset1Category1, Dataset1Category2)
 
@@ -58,9 +57,7 @@ total1$study <- ifelse(is.na(total1$values),
 total1$consecutive <- 1:nrow(total1) 
 
 
-
-#Create graph 1
-#### Graph 1 ####
+#### Graph ####
 #Specify the colors for the forestplot
 #This only does one color for the lines and another color for filling in the boxes
 styles <- fpShapesGp(
